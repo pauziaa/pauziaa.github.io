@@ -1,40 +1,204 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    <!-- AKHIRAN NAVBAR -->
+    <title>Pauzia | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Pauzia.ico">
 
-    <!-- JUMBOTRON -->
-    <div class="jumbotron text-center">
-        <img src="pauzia.jpeg" alt="profil" width="200" class="rounded-circle foto">
-        <h1 class="display-4">Pauzia</h1>
-        <p class="lead">SMKN 40 JAKARTA</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,149.3C672,117,768,75,864,80C960,85,1056,139,1152,181.3C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-      </div>
-    <!-- AKHIRAN JUMBOTRON -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!-- Icon Bootstrap -->
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">pauziaa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link active" href="#about">About</a>
+                    <a class="nav-link active" href="#gallery">Gallery</a>
+                    <a class="nav-link active" href="#contact">Contact</a>
+                </div>
+            </div>
+    </nav>
+    <!-- NAVBAR-END -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center mt-10">
+        <img src="profil.jpeg" alt="" width="200px" class="img-thumbnail rounded-circle" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+        <h1 class="display-4 fw-bold fs-4 mt-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Pauzia
+        </h1>
+        <p class="lead" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Siswa SMKN 40 JAKARTA</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,192L40,181.3C80,171,160,149,240,144C320,139,400,149,480,170.7C560,192,640,224,720,218.7C800,213,880,171,960,149.3C1040,128,1120,128,1200,122.7C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- JUMBOTRON-END -->
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container mb-90">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2> About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                    <p> nama saya pauzia saya tinggal di jl.gading raya saya bersekolah di SMKN 40 Jakarta</p>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e2edff" fill-opacity="1"
+                d="M0,64L40,58.7C80,53,160,43,240,80C320,117,400,203,480,213.3C560,224,640,160,720,138.7C800,117,880,139,960,154.7C1040,171,1120,181,1200,160C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- ABOUT-END -->
+
+    <!-- GALLERY -->
+    <section id="project" class="jumbotron">
+        <div class="container mb-90">
+            <div class="row text-center mb-3">
+                <div class="col mb-80 projects" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center project1" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="kucing1.jpeg" class="card-img-top" alt="Gallery 1" />
+                        <div class="card-body">
+                            <h4 class="mb-4 text-center">Persian cat</h4>
+                            <p class="card-text">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 project2" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <div class="card">
+                        <img src="kucing2.jpeg" class="card-img-top" alt="Gallery 2" />
+                        <div class="card-body">
+                            <h4 class="mb-4 text-center">kucing angggora</h4>
+                            <p class="card-text">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 project3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <div class="card">
+                        <img src="cat.jpeg" class="card-img-top" alt="Gallery 3" />
+                        <div class="card-body">
+                            <h4 class="mb-4 text-center">kucing saya</h4>
+                            <p class="card-text">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,192L40,176C80,160,160,128,240,122.7C320,117,400,139,480,176C560,213,640,267,720,288C800,309,880,299,960,266.7C1040,235,1120,181,1200,170.7C1280,160,1360,192,1400,208L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- GALLERY-END -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contrainer">
+            <div class="row text-center mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="col-md-6">
+                    <div class="my-alert alert alert-success alert-dismissible fade show d-none" role="alert">
+                        <strong>Terimakasih!</strong> Pesan anda sudah terkirim.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form name="abhi-contact-form">
+                        <div class="mb-3 ml-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" name="nama" id="name" aria-describedby="name">
+                        </div>
+
+                        <div class="mb-3 ml-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
+                        </div>
+
+                        <div class="mb-3 ml-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" name="pesan" rows="3" name="pesan"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-kirim btn btn-primary ml-3">kirim</button>
+                        <button class="btn btn-primary btn-loading d-none ml-3" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0d6efd" fill-opacity="1"
+                d="M0,128L40,112C80,96,160,64,240,58.7C320,53,400,75,480,101.3C560,128,640,160,720,176C800,192,880,192,960,170.7C1040,149,1120,107,1200,85.3C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- CONTACT-END -->
+
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center mt-25 ">
+        <p>
+            <a href="https://www.instagram.com/abhisn_gaming/" target="_blank" class="text-white fw-bold">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                    <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                </svg>
+            </a>
+            jiaapauu
+        </p>
+    </footer>
+    <!-- FOOTER-END -->
+
+    <!-- jumbotron -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="index.js"></script>
+
+</body>
+
 </html>
