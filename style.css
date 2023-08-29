@@ -38,7 +38,7 @@ a {
 
 .jumbotron{
     padding-top: 6rem;
-    background:#e2edff;
+    background-color: hotpink;
 
 }
 
@@ -47,5 +47,5 @@ section {
   }
 
 #gallery{
-    background:#e2edff;
+    background-color: hotpink;
 }
