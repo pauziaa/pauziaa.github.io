@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Icon Bootstrap -->
     <!-- My CSS -->
@@ -40,7 +42,7 @@
 
     <!-- jumbotron -->
     <section class="jumbotron text-center mt-10">
-        <img src="profil.jpeg" alt="" width="200px" class="img-thumbnail rounded-circle" data-aos="fade-up"
+        <img src="profil.jpeg" alt="" width="200px" class="img-thumbnail rounded-circle" data-aos="fade-down"
             data-aos-anchor-placement="center-bottom">
         <h1 class="display-4 fw-bold fs-4 mt-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Pauzia
         </h1>
@@ -57,11 +59,11 @@
     <section id="about">
         <div class="container mb-90">
             <div class="row text-center mb-3">
-                <div class="col">
+                <div class="col" data-aos="fade-down">
                     <h2> About Me</h2>
                 </div>
             </div>
-            <div class="row justify-content-center fs-5 text-center">
+            <div class="row justify-content-center fs-5 text-center" data-aos="fade-up">
                 <div class="col-md-4">
                     <p> nama saya pauzia saya tinggal di jl.gading raya saya bersekolah di SMKN 40 Jakarta</p>
                 </div>
@@ -130,19 +132,19 @@
     <!-- Contact -->
     <section id="contact">
         <div class="contrainer">
-            <div class="row text-center mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div class="row text-center mb-3">
                 <div class="col">
                     <h2>Contact Me</h2>
                 </div>
             </div>
 
-            <div class="row justify-content-center mb-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div class="row justify-content-center mb-3">
                 <div class="col-md-6">
                     <div class="my-alert alert alert-success alert-dismissible fade show d-none" role="alert">
                         <strong>Terimakasih!</strong> Pesan anda sudah terkirim.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
-                    <form name="abhi-contact-form">
+                    <form name="pauzia-contact-form">
                         <div class="mb-3 ml-3">
                             <label for="name" class="form-label">Nama</label>
                             <input type="text" class="form-control" name="nama" id="name" aria-describedby="name">
@@ -178,7 +180,7 @@
     <!-- FOOTER -->
     <footer class="bg-primary text-white text-center mt-25 ">
         <p>
-            <a href="instagram.com/pziiaaaa/" target="_blank" class="text-white fw-bold">
+            <a href="https://www.instagram.com/pziiaaaa/" target="_blank" class="text-white fw-bold">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
                     <path
                         d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
@@ -188,6 +190,12 @@
         </p>
     </footer>
     <!-- FOOTER-END -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+        });
+    </script>
 
     <!-- jumbotron -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -198,6 +206,35 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
         </script>
     <script src="index.js"></script>
+
+    <script>
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbzhdpkG0t9V6tIhiENkaBXE_0Jm9jjM7EbgfNvEkUSSbrg5VdLGV-aIl_mWa-jGS2g/exec";
+        const form = document.forms["pauzia-contact-form"];
+        const btnKirim = document.querySelector(".btn-kirim");
+        const btnLoading = document.querySelector(".btn-loading");
+        const alert = document.querySelector(".alert");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            // ketika tombol submit diklik
+            // tampilkan tombol loading, hilangkan tombol kirim
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => {
+                    // tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle("d-none");
+                    btnKirim.classList.toggle("d-none");
+                    // tampilkan allert
+                    alert.classList.toggle("d-none");
+                    // reset formnya
+                    form.reset();
+                    console.log("Success!", response);
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
 
 </body>
 
